@@ -1,0 +1,147 @@
+﻿body {
+     background-size: cover;
+}
+.logo{
+    border-radius: 20px;
+    height :95px;
+    font-size :27px;
+}
+.img1 {
+    float: right;
+    width:25%;
+    height :95px;
+}
+.TR{
+    font-size:80px;
+}#header {        
+    width:100%;
+    font-family:Arial Black, Helvetica, sans-serif;
+	font-size:25px;
+}
+ ul, ol {
+  list-style:none;
+}
+.nav > li {
+  float:left;
+}   
+.nav li a {
+   background-color:#177a31;
+   color:#fff;
+   width:100%;
+   text-decoration:none;
+   padding:10px 22px;
+   display:block;
+}   
+.nav li a:hover {
+ background-color:#b5d46f;
+}
+.nav li ul {
+  position:absolute;
+   display:none;
+}    
+.nav li:hover > ul {
+   background-color: #b5d46f;
+   display:block;
+}
+.btn{
+    background-color:#dee8cd;
+    font-size:20px; 
+    width:46px;
+    text-align: center;
+    border-radius: 15px;
+}
+.v{
+    padding:10px 40px;
+    float:left;
+     width:44%;
+}
+.v1{
+    font-family:Arial Black;
+    float:right;
+    color:white;
+    border-radius: 20px;
+    height :230px;
+    width:48%;
+    font-size :20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.v2{
+    font-family:Arial Black;
+    float:left;
+    color:white;
+    height :250px;
+    width:32%;
+    font-size :20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.btnAgre {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color:#64aa3b;
+    font-family:Arial Black;
+    font-size:20px; 
+    text-align: center;
+    border-radius: 15px;
+}
+.btnModi {
+    background-color:#d3bd38;
+    font-family:Arial Black;
+    font-size:20px; 
+    height:40px;
+    width:118px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+}
+.btnEli {
+    background-color:#f15b5b;
+    font-family:Arial Black;
+    font-size:20px; 
+    height:40px;
+    width:105px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+}
+.b {
+    background-color:#f5a16b;
+    font-family:Arial Black;
+    font-size:20px; 
+    text-align: center;
+    border: none;
+}
+.lbl1 {
+    font-family:Cooper Black;
+    font-size :40px;
+}
+.txt {
+    border-radius: 15px;
+    background-color:#dee8cd;
+    text-align: center;
+    font-size:20px;
+}
+.txt1 {
+    border-radius: 15px;
+    background-color:#dee8cd;
+    }
+.va{
+    font-family:Arial Black;
+    color:white;
+    float:left;
+    height :250px;
+    width:35%;
+    font-size :20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.va1{
+    font-family:Arial Black;
+    color:white;
+    float:left;
+    height :150px;
+    width:33%;
+    font-size :20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+

@@ -1,0 +1,54 @@
+﻿body {
+     background-image:url(../img/fondo1.jpg);
+     background-size: cover;
+}
+.logo{
+    border-radius: 20px;
+    height :90px;
+    font-size :27px;
+}
+.img1 {
+    float: right;
+    width:25%;
+    height :95px;
+}
+.TR{
+    font-size:80px;
+}
+#header {        
+    width:100%;
+    font-family:Arial Black, Helvetica, sans-serif;
+	font-size:25px;
+}
+ ul, ol {
+  list-style:none;
+}
+.nav > li {
+  float:left;
+}   
+.nav li a {
+   background-color:#177a31;
+   color:#fff;
+   width:100%;
+   text-decoration:none;
+   padding:10px 80px;
+   display:block;
+}   
+.nav li a:hover {
+ background-color:#b5d46f;
+}
+.nav li ul {
+  position:absolute;
+   display:none;
+}    
+.nav li:hover > ul {
+   background-color: #b5d46f;
+   display:block;
+}
+.imgdestino {
+    width:32%;
+    height:200px;
+    padding:5px 5px;
+}
+
+

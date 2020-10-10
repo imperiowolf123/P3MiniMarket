@@ -1,0 +1,67 @@
+﻿body {
+    background-image:url(../img/login.jpg);
+    background-size: cover;
+}
+.text{
+    font-size: 155px;
+     color: white;
+   font-family: Arial Black ;
+}
+.boton{
+  padding: 10px 25px;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 25%;
+}
+.boton:active {
+
+  background-color:#666;
+  color: #ddd;
+  box-shadow: 0 5px #fff;
+  transform: translateY(4px);
+  text-shadow: 0 -2px #000;
+}
+.div {
+  border-radius: 20px;
+  width:35%;
+  height: 450px;
+  color:white;
+  font-family:Arial Black;
+  font-size:30px;
+  background-color: rgba(0,0,0,0.5);
+}
+.t {
+    color:#faf0de;
+    font-size:100px;
+    font-family: Cooper Black;
+}
+.text1{
+   padding: 10px 25px;
+    width: 50%;
+    height:15px;
+    font-size:15px;
+    color:black;
+}
+.boton1{
+  padding: 10px 25px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: #d48a09;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 25%;
+}
+.boton1:active {
+  background-color:black;
+  color: #ddd;
+  box-shadow: 0 5px #fff;
+  transform: translateY(4px);
+  text-shadow: 0 -2px #000;
+}
