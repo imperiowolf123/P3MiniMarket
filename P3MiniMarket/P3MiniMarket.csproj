@@ -68,18 +68,41 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin.aspx" />
+    <Content Include="almacen.aspx" />
     <Content Include="estilo\CE1.css" />
     <Content Include="estilo\destino.css" />
     <Content Include="estilo\destino1.css" />
     <Content Include="estilo\Destino_C.css" />
+    <Content Include="estilo\estilo.css" />
+    <Content Include="estilo\estiloAlmacen.css" />
+    <Content Include="estilo\estiloMenu.css" />
     <Content Include="estilo\estilo_inicio.css" />
     <Content Include="estilo\e_CE1.css" />
     <Content Include="estilo\e_venta.css" />
+    <Content Include="estilo\pro.css" />
     <Content Include="estilo\registro.css" />
     <Content Include="estilo\usuario.css" />
     <Content Include="estilo\venta.css" />
+    <Content Include="img\alimentos.jpg" />
+    <Content Include="img\bolsa.png" />
+    <Content Include="img\delizia.jpg" />
+    <Content Include="img\enlatado.jpg" />
+    <Content Include="img\fondo_login.jpg" />
+    <Content Include="img\fondo_login.png" />
+    <Content Include="img\galon.jpg" />
+    <Content Include="img\limpieza.jpg" />
     <Content Include="img\login.jpg" />
+    <Content Include="img\logo_login.jpg" />
+    <Content Include="img\logo_login.png" />
+    <Content Include="img\pack.jpg" />
+    <Content Include="img\perecederos.png" />
+    <Content Include="img\sofialogo.jpg" />
+    <Content Include="insertar.aspx" />
+    <Content Include="js\JavaScript.js" />
     <Content Include="Login.aspx" />
+    <Content Include="nuevoPedido.aspx" />
+    <Content Include="pedidosAlmacen.aspx" />
+    <Content Include="proveedorAlmacen.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,7 +113,22 @@
     <Compile Include="admin.aspx.designer.cs">
       <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="almacen.aspx.cs">
+      <DependentUpon>almacen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="almacen.aspx.designer.cs">
+      <DependentUpon>almacen.aspx</DependentUpon>
+    </Compile>
     <Compile Include="clases\conexion.cs" />
+    <Compile Include="clases\prod.cs" />
+    <Compile Include="insertar.aspx.cs">
+      <DependentUpon>insertar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="insertar.aspx.designer.cs">
+      <DependentUpon>insertar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -98,7 +136,28 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="nuevoPedido.aspx.cs">
+      <DependentUpon>nuevoPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nuevoPedido.aspx.designer.cs">
+      <DependentUpon>nuevoPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pedidosAlmacen.aspx.cs">
+      <DependentUpon>pedidosAlmacen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pedidosAlmacen.aspx.designer.cs">
+      <DependentUpon>pedidosAlmacen.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proveedorAlmacen.aspx.cs">
+      <DependentUpon>proveedorAlmacen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="proveedorAlmacen.aspx.designer.cs">
+      <DependentUpon>proveedorAlmacen.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -109,6 +168,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

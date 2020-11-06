@@ -11,35 +11,17 @@ namespace P3MiniMarket
 {
 
 
-    public partial class Login
+    public partial class proveedorAlmacen
     {
 
         /// <summary>
-        /// Control form1.
+        /// Control txt_buscar_prov.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// Control txt_user.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_user;
-
-        /// <summary>
-        /// Control txt_passw.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_passw;
+        protected global::System.Web.UI.WebControls.TextBox txt_buscar_prov;
 
         /// <summary>
         /// Control Button1.
@@ -51,12 +33,12 @@ namespace P3MiniMarket
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// Control Label1.
+        /// Control GridView1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

@@ -34,6 +34,10 @@ namespace P3MiniMarket
                     {
                         Response.Redirect("admin.aspx");
                     }
+                    if (dt.Rows[0][1].ToString() == "Almacen")
+                    {
+                        Response.Redirect("almacen.aspx");
+                    }
                 }
                 else
                 {
