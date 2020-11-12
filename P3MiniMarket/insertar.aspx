@@ -47,7 +47,7 @@
 			<a href="almacen.aspx" class="btn btn_cancelar">Cancelar</a>
             <asp:Button ID="btn_guardar" runat="server" Text="Guardar" class="btn btn_guardar" OnClick="btn_guardar_Click"/>
         </div>
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
     </form>
 		</div>
 		</section>

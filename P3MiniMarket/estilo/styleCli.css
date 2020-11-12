@@ -1,0 +1,288 @@
+body{
+	font:15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color:#f4f4f4; 
+}
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1{
+	height: 38px;
+	background: #e8491d;
+	border:0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*Encabezado*/
+header{
+	background-color: #24282b;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #1293d4;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #marca{
+	float: left;
+}
+
+header #marca h1{
+	margin: 0;
+}
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+
+header .resaltado, header .actual a{
+	color: #1293d4;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #ccc;
+}
+
+
+/*Cabecera con imagen*/
+#cabecera{
+	min-height: 400px;
+	background:url('../img/accesibilidad.png') no-repeat 0 -400px;
+	text-align: center;
+	color: #fff;
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+/*Boletin*/
+#boletin{
+	padding: 15px;
+	color: #fff;
+	background: #24282b;
+}
+
+#boletin h1{
+	float: left;
+}
+#boletin form{
+	float: right;
+	margin-top: 15px;
+}
+#boletin input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+
+/*CONTENEDOR*/
+.contenedor2{
+	width: 100%;
+	max-width: 1200px;
+	height: 430px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	background: #CEF6F5;
+}
+.contenedor2 .card{
+	width: 350px;
+	height: 100%;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow-x: scroll;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+	background: #F2F2F2;
+}
+
+.contenedor2 .card:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor2 .card img{
+	width: 330px;
+	height: 270px;
+}
+
+.contenedor .card h4{
+	font-weight: 600;
+}
+
+.contenedor .card p{		
+	padding: 0 1rem;
+	font-size: 16px;
+	font-weight: 300;		
+}
+
+.contenedor .card a{		
+	font-weight: 500;
+	text-decoration: none;
+	color: #3498db;
+}
+.contenedor a:hover{
+	color: #fff;
+}
+
+/*Lateral*/
+aside#lateral{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+.oscuro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+/*Main-col*/
+article#main-col{
+	float: left;
+	width: 65%;
+}
+/*Formulario de contacto*/
+input, textarea{
+	width: 100%;
+	height: 35px;
+	border:1px solid gray;
+	margin-bottom: 5px;
+}
+
+textarea{
+	height: 120px;
+}
+
+input[type="submit"]{
+	background-color: #e8491d;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*SECTION RESERVAS*/
+
+input[type="number"]{
+	width: 8%;
+	height: 35px;
+}
+.reservaprod{
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.contprod{
+    width: 80%;
+    max-width: 2000px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+h2{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #555;
+}
+form .btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    background: rgb(3, 113, 163);
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: medium none;
+    cursor: pointer;
+}
+.form-grupo{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+form .form-grupo .input_text{
+    max-width: 45% !important;
+}
+.btn_nuevo{
+    float: right;
+    background: #1b743c !important;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table .head{
+    background: rgb(3, 113, 163);
+}
+table .head td{
+    color: #fff;
+    font-family: 'Arial',sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}
+
+table tr td{
+    border:1px solid #ccc;
+    padding: 7px;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+/*Footer o pie de pagina*/
+footer{
+	padding:20px;
+	margin-top:0px;
+	color: #fff;
+	background-color: #1293d4;
+	text-align: center;
+}

@@ -19,6 +19,7 @@ namespace P3MiniMarket
 
         protected void btn_guardar_Click(object sender, EventArgs e)
         {
+            Label1.Text="";
             if (txt_cat.Text == "")
             {
                 Label1.Text = "CAMPOS VACIOS";

@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="admin.aspx" />
     <Content Include="almacen.aspx" />
+    <Content Include="contacto.aspx" />
     <Content Include="estilo\CE1.css" />
     <Content Include="estilo\destino.css" />
     <Content Include="estilo\destino1.css" />
@@ -81,14 +82,19 @@
     <Content Include="estilo\e_venta.css" />
     <Content Include="estilo\pro.css" />
     <Content Include="estilo\registro.css" />
+    <Content Include="estilo\styleCli.css" />
     <Content Include="estilo\usuario.css" />
     <Content Include="estilo\venta.css" />
+    <Content Include="img\accesibilidad.png" />
     <Content Include="img\alimentos.jpg" />
+    <Content Include="img\autoamarillo.jpg" />
+    <Content Include="img\autorojo.png" />
     <Content Include="img\bolsa.png" />
     <Content Include="img\delizia.jpg" />
     <Content Include="img\enlatado.jpg" />
     <Content Include="img\fondo_login.jpg" />
     <Content Include="img\fondo_login.png" />
+    <Content Include="img\funcionalidad.png" />
     <Content Include="img\galon.jpg" />
     <Content Include="img\limpieza.jpg" />
     <Content Include="img\login.jpg" />
@@ -96,13 +102,18 @@
     <Content Include="img\logo_login.png" />
     <Content Include="img\pack.jpg" />
     <Content Include="img\perecederos.png" />
+    <Content Include="img\portada.jpg" />
     <Content Include="img\sofialogo.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="indexA.aspx" />
     <Content Include="insertar.aspx" />
     <Content Include="js\JavaScript.js" />
     <Content Include="Login.aspx" />
     <Content Include="nuevoPedido.aspx" />
     <Content Include="pedidosAlmacen.aspx" />
+    <Content Include="productosCategoria.aspx" />
     <Content Include="proveedorAlmacen.aspx" />
+    <Content Include="registroCli.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -120,8 +131,30 @@
     <Compile Include="almacen.aspx.designer.cs">
       <DependentUpon>almacen.aspx</DependentUpon>
     </Compile>
+    <Compile Include="clases\cliente.cs" />
     <Compile Include="clases\conexion.cs" />
     <Compile Include="clases\prod.cs" />
+    <Compile Include="contacto.aspx.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contacto.aspx.designer.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="indexA.aspx.cs">
+      <DependentUpon>indexA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="indexA.aspx.designer.cs">
+      <DependentUpon>indexA.aspx</DependentUpon>
+    </Compile>
     <Compile Include="insertar.aspx.cs">
       <DependentUpon>insertar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -131,7 +164,6 @@
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -150,6 +182,13 @@
     <Compile Include="pedidosAlmacen.aspx.designer.cs">
       <DependentUpon>pedidosAlmacen.aspx</DependentUpon>
     </Compile>
+    <Compile Include="productosCategoria.aspx.cs">
+      <DependentUpon>productosCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productosCategoria.aspx.designer.cs">
+      <DependentUpon>productosCategoria.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="proveedorAlmacen.aspx.cs">
       <DependentUpon>proveedorAlmacen.aspx</DependentUpon>
@@ -157,6 +196,13 @@
     </Compile>
     <Compile Include="proveedorAlmacen.aspx.designer.cs">
       <DependentUpon>proveedorAlmacen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registroCli.aspx.cs">
+      <DependentUpon>registroCli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registroCli.aspx.designer.cs">
+      <DependentUpon>registroCli.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
